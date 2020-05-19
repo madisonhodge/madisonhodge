@@ -110,7 +110,7 @@ ul li {
 
 
 
-/*PROJECT */
+/*PROJECT ITEMS + IMAGES */
 
 .project-item{
   position: relative; 
@@ -181,7 +181,7 @@ ul li {
 
 
 
-/*PORTRAITS + ILLUSTRATIONS */
+/*PORTRAITS, ILLUSTRATIONS, AND MAGAZINE PAGES */
 
 .portraits  .container{
   margin-top: 20px; 
@@ -201,20 +201,6 @@ ul li {
   float: left; 
   margin-left: 80px;
 }
-
-.collage-images {
-  width: 60%; 
-  float: left; 
-  margin-left: 80px;
-}
-
-.collage-images img {
-   position: relative; 
- 
-  height: 300px;
-  overflow: hidden; 
-  margin: 15px 0;
-}
   
 .portrait-images img {
   max-width: 250px; 
@@ -222,6 +208,20 @@ ul li {
   margin-bottom: 30px; 
   margin-left: 60px;  
 }
+
+
+.magazines .portrait-images img {
+  max-width: 290px;
+  height: auto;
+  margin: 0;
+   
+  padding-bottom: 30px;
+  padding-left: 25px;
+}
+
+
+
+/*LEMONADE AND CFNH PAGES*/
 
 .project-inspo {
   width: 60%; 
@@ -236,14 +236,15 @@ ul li {
   align-items: flex-start;
   position: relative; 
   overflow: hidden; 
-  width: 300px;
+  width: 350px;
   margin: 15px 0; 
 }
 
 .project-images img {
-  max-width: 225px; 
-  margin-right: 40px;
-  margin-left: 65px;
+  max-width: 350px;
+  height: auto;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 
@@ -254,20 +255,6 @@ ul li {
 
 .logos {
   padding-left: 50px;
-}
-/*COLLAGES*/
-
-.featured-image .container {
-  height: 480px; 
-  overflow: hidden; 
-  display: flex; 
-  align-items: center; 
-}
-
-.featured-image img {
-  width: auto;
-  height: 500px;
-  margin-right: 40px;
 }
 
 .lemonade-image .container {
@@ -284,38 +271,34 @@ ul li {
 }
 
 
-/*CONTACT PAGE */
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc; 
-  border-radius: 4px; 
-  box-sizing: border-box;
-  margin-top: 6px; 
-  margin-bottom: 16px;
-  resize: vertical 
+/*COLLAGES PAGE*/
+
+.featured-image .container {
+  height: 480px; 
+  overflow: hidden; 
+  display: flex; 
+  align-items: center; 
 }
 
-input[type=submit] {
-  background-color: #b2a1a3;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+.featured-image img {
+  width: auto;
+  height: 500px;
+  margin-right: 40px;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-  background-color: #000;
+.collage-images {
+  width: 60%; 
+  float: left; 
+  margin-left: 80px;
 }
 
-/* Add a background color and some padding around the form */
-.container {
-  border-radius: 5px;
-  padding: 20px;
+.collage-images img {
+   position: relative; 
+ 
+  height: 300px;
+  overflow: hidden; 
+  margin: 15px 0;
 }
-
 
 
 /*FOOTER STYLES */
@@ -335,9 +318,6 @@ footer p {
     height: 60px;
     margin: 10px 20px;
 }
-
-
-
 
 
 
@@ -453,19 +433,20 @@ footer p {
     flex-direction: column; 
     margin-left: 50px;
   }
+  
   .lemonade-image img {
     margin: 0; 
     margin-bottom: 35px;
-    width: 100%; 
+    width: 200px; 
     height: auto;
-    margin-right: 30px;
+    margin-right: 50px;
   }
   
   
   .project-images img{
     margin: 0;
     align-items: center;
-    width: auto;
+    width: 200px;
     height: auto; 
   }
   
@@ -475,7 +456,8 @@ footer p {
 
   
   .lemonade .project-images {
-    margin-left: 50px;
+    margin: 0;
+    padding-left: 50px;
   }
   .project-info .container {
     margin: 0;
