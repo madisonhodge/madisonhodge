@@ -404,6 +404,17 @@ footer p {
     margin: 0; 
   }
   
+  .magazines .portrait-images {
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  .magazines .portrait-images img {
+    width: 100%;
+    height: auto;
+    margin-left: 50px;
+  }
+  
   .portrait-images div {
     width: 100%; 
     height: 300px; 
@@ -467,5 +478,15 @@ footer p {
     padding: 0; 
   }
   
+  footer {
+    flex-direction: column;
+    height: auto;
+  }
+
+  footer p {
+    display: none;
+  }
+  
+
 }
 
