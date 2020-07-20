@@ -43,7 +43,7 @@ header ul a {
 }
 
 header ul a:hover {
-  color: #7B889D;
+  color: #EDB8AD;
 }
 
 ul {
@@ -79,7 +79,7 @@ ul li {
 .welcome-description {
   width: 450px; 
   height: 585px; 
-  background-color: #b2a1a3;
+  background-color: #EDB8AD;
   float: left; 
   padding: 90px 60px; 
   color: white; 
@@ -149,7 +149,7 @@ ul li {
 }
 
 .project-item .overlay {
-  background-color: #b2a1a3;
+  background-color: #EDB8AD;
 }
 
 .project-item:hover .overlay {
@@ -181,7 +181,7 @@ ul li {
 
 
 
-/*PORTRAITS, ILLUSTRATIONS, AND MAGAZINE PAGES */
+/*DIGITIZED PORTRAITS, LETTERING, AND MAGAZINE PAGES */
 
 .portraits  .container{
   margin-top: 20px; 
@@ -221,7 +221,7 @@ ul li {
 
 
 
-/*LEMONADE AND CFNH PAGES*/
+/*LEMONADE PAGE*/
 
 .project-inspo {
   width: 60%; 
@@ -271,7 +271,7 @@ ul li {
 }
 
 
-/*COLLAGES PAGE*/
+/*COLLAGES, ILLUSTRATIONS, + ABOUT PAGE*/
 
 .featured-image .container {
   height: 480px; 
@@ -284,6 +284,12 @@ ul li {
   width: auto;
   height: 500px;
   margin-right: 40px;
+}
+
+.featured-image-illustrations img {
+  width: auto;
+  height: 520px;
+  margin-left: 50px;
 }
 
 .collage-images {
@@ -300,6 +306,9 @@ ul li {
   margin: 15px 0;
 }
 
+.project-description a {
+  color: #EDB8AD;
+}
 
 /*FOOTER STYLES */
 footer .container {
